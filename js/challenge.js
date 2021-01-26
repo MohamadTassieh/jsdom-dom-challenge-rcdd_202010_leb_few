@@ -40,12 +40,5 @@ let pauseBtn = documentgetElementById("pause")
     alert("enter a comment") }
     else{ pCmt= document.createElement("p");
     pCmt.innerText = inputText.value;
-    document.querySelector(".comments").appendChild(pCmt);}
+    document.getElementsByClassName("comments").appendChild(pCmt);}
   });
-
-   document.getElementById("heart").addEventListener("click",function () {
-  let list =document.getElementByClass(".likes");
-   let listItem = document.createElement("li");
-   listItem.innerText=`❤️ this count ${counter}`
-  list.appendChild(listItem);
-});
