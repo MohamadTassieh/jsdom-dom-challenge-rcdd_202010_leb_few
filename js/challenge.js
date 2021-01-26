@@ -42,7 +42,7 @@ let pauseBtn = documentgetElementById("pause")
     pCmt.innerText = inputText.value;
     document.querySelector(".comments").appendChild(pCmt);}
   });
-  
+
    document.getElementById("heart").addEventListener("click",function () {
   let list =document.getElementByClass(".likes");
    let listItem = document.createElement("li");
