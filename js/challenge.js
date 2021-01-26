@@ -9,5 +9,10 @@ function count()
 document.getElementById("plus").addEventListener("click",function() {
   counter++;
   counterLoad.innerText = counter;
-}
+ }
+);
+document.getElementById("minus").addEventListener("click", function() {
+  counter--;
+  counterLoad.innerText = counter;
+ }
 );
