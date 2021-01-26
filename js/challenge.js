@@ -42,3 +42,5 @@ let pauseBtn = documentgetElementById("pause")
     pCmt.innerText = inputText.value;
     document.getElementsByClassName("comments").appendChild(pCmt);}
   });
+
+  
